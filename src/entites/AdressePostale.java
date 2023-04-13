@@ -8,6 +8,7 @@ String addressLabel;
 String postCode;
 String city;
 
+
 public AdressePostale(int streetNumber, String addressLabel, String postCode, String city) {
 	this.streetNumber = streetNumber;
 	this.addressLabel = addressLabel;
