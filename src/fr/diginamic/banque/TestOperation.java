@@ -10,6 +10,7 @@ public class TestOperation {
 	public static void main(String args[]) {
 		
 		Compte account = new Compte(5555, (float)150.0);
+		
 		Operation[] operationArray = new Operation[4];
 		
 		operationArray[0] = new Debit("11/04", (float) 10.0);
