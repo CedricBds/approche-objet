@@ -16,10 +16,8 @@ public class Recensement extends Ville {
 	public Recensement(int stateCode, String stateName, int departmentCode, int communalCode, String communalName,
 			int totalPopulation) {
 		super(stateCode, stateName, departmentCode, communalCode, communalName, totalPopulation);
-		// TODO Auto-generated constructor stub
 	}
 
-	//HashMap<Ville> villes = new HashMap<>();
 	
 	public static HashSet<Ville> cityArray = new HashSet<Ville>(
 			Arrays.asList());
@@ -38,7 +36,6 @@ public class Recensement extends Ville {
 		        	cityArray.add(new Ville(Integer.parseInt(city[0]), city[1], Integer.parseInt(city[2]), Integer.parseInt(city[3]), city[4], Integer.parseInt(city[5])));
 		        }
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
         
